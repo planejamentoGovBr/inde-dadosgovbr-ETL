@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<externalNode i18n.job.component.parameters="Component Parameters:" i18n.job.properties="Propriedades" i18n.job.values="Values" i18n.mapper.table.for="Mapper table for " i18n.mapper.table.properties="Mapper table Properties" i18n.job.name="Nome" i18n.tmap.matching.mode="Matching-mode" i18n.mapper.table.isminimized="isMinimized" i18n.tmap.isreject="isReject" i18n.tmap.isrejectinnnerjoin="isRejectInnerJoin" i18n.tmap.isinnerjoin="isInnerJoin" i18n.tmap.expressionfilter="expressionFilter" i18n.mapper.table.metadata.entries="Metadata Table Entries" i18n.job.type="Type" i18n.mapper.table.expression="Expressão" i18n.tmap.isnullable="isNullable" i18n.tmap.constraint.entries="Constraint Table Entries" name="tMap_2" preview="pictures/_DcWbYNIjEeSa4aEsa2XIvQ-tMap_2-PREVIEW.bmp">
+  <parameters>
+    <column name="tStatCatcher Statistics">false</column>
+    <column name="Permitir execução em paralelo">false</column>
+    <column name="Mapping links display as: ">AUTO</column>
+    <column name="Temp data directory path: "></column>
+    <column name="Max buffer size (nb of rows): ">2000000</column>
+    <column name="Visualizar informações">true</column>
+    <column name="Comentário"><![CDATA[Componente responsável por tratar os dados vindo do código-fonte para serem utilizados posteriormente.]]></column>
+    <column name="Use an existing validation rule">false</column>
+  </parameters>
+  <mapperTable type="input">
+    <table name="entrada_codigo_temp" matching-mode="UNIQUE_MATCH" lookup-mode="LOAD_ONCE" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false">
+      <metadataTableEntries>
+        <entry name="Arquivo" type="String" expression="" isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+  </mapperTable>
+  <mapperTable type="output">
+    <table name="saida_lista" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false">
+      <metadataTableEntries>
+        <entry name="Arquivo" type="String" expression="entrada_codigo_temp.Arquivo.substring(entrada_codigo_temp.Arquivo.indexOf(&quot;http&quot;), entrada_codigo_temp.Arquivo.indexOf(&quot;'&quot;, entrada_codigo_temp.Arquivo.indexOf(&quot;http&quot;))).trim() + &quot;;&quot; + entrada_codigo_temp.Arquivo.substring(entrada_codigo_temp.Arquivo.indexOf(&quot;layers:&quot;)+9, entrada_codigo_temp.Arquivo.indexOf(&quot;,&quot;, entrada_codigo_temp.Arquivo.indexOf(&quot;layers:&quot;))-1).trim() + &quot;;&quot; + entrada_codigo_temp.Arquivo.substring(entrada_codigo_temp.Arquivo.indexOf(&quot;uuid=&quot;)+5, entrada_codigo_temp.Arquivo.indexOf(&quot;'&quot;, entrada_codigo_temp.Arquivo.indexOf(&quot;uuid=&quot;))).trim() + &quot;;&quot; + entrada_codigo_temp.Arquivo.substring(entrada_codigo_temp.Arquivo.indexOf(&quot;kmlURL:&quot;)+9, entrada_codigo_temp.Arquivo.indexOf(&quot;kmz+xml&quot;, entrada_codigo_temp.Arquivo.indexOf(&quot;kmlURL:&quot;))+7).trim() + &quot;;&quot; + entrada_codigo_temp.Arquivo.substring(entrada_codigo_temp.Arquivo.indexOf(&quot;groupOfKeeper:&quot;)+16, entrada_codigo_temp.Arquivo.indexOf(&quot;',&quot;, entrada_codigo_temp.Arquivo.indexOf(&quot;groupOfKeeper:&quot;))).trim() + &quot;;&quot; + entrada_codigo_temp.Arquivo.substring(entrada_codigo_temp.Arquivo.indexOf(&quot;metadataURL:&quot;)+14, entrada_codigo_temp.Arquivo.indexOf(&quot;',&quot;, entrada_codigo_temp.Arquivo.indexOf(&quot;metadataURL:&quot;))).trim() + &quot;;&quot; + entrada_codigo_temp.Arquivo.substring(entrada_codigo_temp.Arquivo.indexOf(&quot;dbID:&quot;)+6, entrada_codigo_temp.Arquivo.indexOf(&quot;}&quot;, entrada_codigo_temp.Arquivo.indexOf(&quot;dbID:&quot;))).trim() " isNullable="true"/>
+        <entry name="unicidade" type="String" expression="entrada_codigo_temp.Arquivo.substring(entrada_codigo_temp.Arquivo.indexOf(&quot;dbID:&quot;)+6, entrada_codigo_temp.Arquivo.indexOf(&quot;}&quot;, entrada_codigo_temp.Arquivo.indexOf(&quot;dbID:&quot;))) " isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+  </mapperTable>
+  <mapperTable type="var">
+    <table name="Var" isMinimized="true" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false"/>
+  </mapperTable>
+</externalNode>

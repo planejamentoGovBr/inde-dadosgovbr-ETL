@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_bCxVA9ezEeSMGfozJmNCHQ" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_bCxVBNezEeSMGfozJmNCHQ" comment="" name="entrada_json" prompt="entrada_json?" promptNeeded="false" type="id_String" value="&quot;C:/entrada/inde/recursos_json/&quot;"/>
+    <contextParameter xmi:id="_bCxVBdezEeSMGfozJmNCHQ" comment="" name="temp" prompt="temp?" promptNeeded="false" type="id_String" value="&quot;C:/entrada/inde/temp/&quot;"/>
+    <contextParameter xmi:id="_bCxVBtezEeSMGfozJmNCHQ" comment="" name="entrada" prompt="entrada?" promptNeeded="false" type="id_String" value="&quot;C:/entrada/inde/&quot;"/>
+    <contextParameter xmi:id="_bCxVB9ezEeSMGfozJmNCHQ" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" type="id_String" value="&quot;C:/entrada/inde/log/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_bCxVCNezEeSMGfozJmNCHQ" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_bCxVCdezEeSMGfozJmNCHQ" comment="" name="entrada_json" prompt="entrada_json?" promptNeeded="false" type="id_String" value="&quot;C:/entrada/inde/recursos_json/&quot;"/>
+    <contextParameter xmi:id="_bCxVCtezEeSMGfozJmNCHQ" comment="" name="temp" prompt="temp?" promptNeeded="false" type="id_String" value="&quot;C:/entrada/inde/temp/&quot;"/>
+    <contextParameter xmi:id="_bCxVC9ezEeSMGfozJmNCHQ" comment="" name="entrada" prompt="entrada?" promptNeeded="false" type="id_String" value="&quot;C:/entrada/inde/&quot;"/>
+    <contextParameter xmi:id="_bCxVDNezEeSMGfozJmNCHQ" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" type="id_String" value="&quot;C:/entrada/inde/log/&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_bCxVDdezEeSMGfozJmNCHQ" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_bCxVDtezEeSMGfozJmNCHQ" comment="" name="entrada_json" prompt="entrada_json?" promptNeeded="false" type="id_String" value="&quot;/entrada/inde/recursos_json/&quot;"/>
+    <contextParameter xmi:id="_bCxVD9ezEeSMGfozJmNCHQ" comment="" name="temp" prompt="temp?" promptNeeded="false" type="id_String" value="&quot;/entrada/inde/temp/&quot;"/>
+    <contextParameter xmi:id="_bCxVENezEeSMGfozJmNCHQ" comment="" name="entrada" prompt="entrada?" promptNeeded="false" type="id_String" value="&quot;/entrada/inde/&quot;"/>
+    <contextParameter xmi:id="_bCxVEdezEeSMGfozJmNCHQ" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" type="id_String" value="&quot;/entrada/inde/log/&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_bDAlk9ezEeSMGfozJmNCHQ" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_bDAllNezEeSMGfozJmNCHQ" comment="" name="api" prompt="api?" promptNeeded="false" type="id_String" value="&quot;chave-api&quot;"/>
+    <contextParameter xmi:id="_bDAlldezEeSMGfozJmNCHQ" comment="" name="url_create" prompt="url_create?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_create&quot;"/>
+    <contextParameter xmi:id="_bDAlltezEeSMGfozJmNCHQ" comment="" name="url_update" prompt="url_update?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_update&quot;"/>
+    <contextParameter xmi:id="_bDAll9ezEeSMGfozJmNCHQ" comment="" name="url_delete" prompt="url_delete?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_delete&quot;"/>
+    <contextParameter xmi:id="_bDAlmNezEeSMGfozJmNCHQ" comment="" name="url_related_create" prompt="url_related_create?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/related_create&quot;"/>
+    <contextParameter xmi:id="_bDAlmdezEeSMGfozJmNCHQ" comment="" name="url_related_update" prompt="url_related_update?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/related_update&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_bDAlmtezEeSMGfozJmNCHQ" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_bDAlm9ezEeSMGfozJmNCHQ" comment="" name="api" prompt="api?" promptNeeded="false" type="id_String" value="&quot;chave-api&quot;"/>
+    <contextParameter xmi:id="_bDAlnNezEeSMGfozJmNCHQ" comment="" name="url_create" prompt="url_create?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_create&quot;"/>
+    <contextParameter xmi:id="_bDAlndezEeSMGfozJmNCHQ" comment="" name="url_update" prompt="url_update?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_update&quot;"/>
+    <contextParameter xmi:id="_bDAlntezEeSMGfozJmNCHQ" comment="" name="url_delete" prompt="url_delete?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_delete&quot;"/>
+    <contextParameter xmi:id="_bDAln9ezEeSMGfozJmNCHQ" comment="" name="url_related_create" prompt="url_related_create?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/related_create&quot;"/>
+    <contextParameter xmi:id="_bDAloNezEeSMGfozJmNCHQ" comment="" name="url_related_update" prompt="url_related_update?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/related_update&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_bDAlodezEeSMGfozJmNCHQ" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_bDAlotezEeSMGfozJmNCHQ" comment="" name="api" prompt="api?" promptNeeded="false" type="id_String" value="&quot;chave-api&quot;"/>
+    <contextParameter xmi:id="_bDAlo9ezEeSMGfozJmNCHQ" comment="" name="url_create" prompt="url_create?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_create&quot;"/>
+    <contextParameter xmi:id="_bDAlpNezEeSMGfozJmNCHQ" comment="" name="url_update" prompt="url_update?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_update&quot;"/>
+    <contextParameter xmi:id="_bDAlpdezEeSMGfozJmNCHQ" comment="" name="url_delete" prompt="url_delete?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/package_delete&quot;"/>
+    <contextParameter xmi:id="_bDAlptezEeSMGfozJmNCHQ" comment="" name="url_related_create" prompt="url_related_create?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/related_create&quot;"/>
+    <contextParameter xmi:id="_bDAlp9ezEeSMGfozJmNCHQ" comment="" name="url_related_update" prompt="url_related_update?" promptNeeded="false" type="id_String" value="&quot;http://ip-servidor/api/3/action/related_update&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>
